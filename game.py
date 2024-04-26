@@ -10,5 +10,17 @@ print("The consequences of purposeful disregardance...")
 print()
 print()
 time.sleep(3.25)
+print("Sanctuary awaits!")
+print()
+time.sleep(1.5)
 while True:
-    print("Sanctuary awaits! Would you like to start your adventure? (Y or N)")
+    print("Would you like to start your adventure? (Y or N)")
+    go = input()
+    if go == "Y":
+        print("Darkness...")
+        print()
+        time.sleep(2)
+        print("A scorching heat radiates across you")
+        time.sleep(2)
+    else:
+        print("false")
